@@ -7,7 +7,8 @@ export const Arena = {
             {x: 556, y: 105, z: 57}
         ],
         facingLocation: { x: 530, y: 110, z: 30 },
-        visitPoint: { x: 530, y: 120, z: 30 }
+        visitPoint: { x: 530, y: 120, z: 30 },
+        resetLocation: { x: 500, y: 101, z: 0 }
     },
     Podzol: {
         spawnPoint: [
@@ -17,7 +18,8 @@ export const Arena = {
             {x: 624, y: 104, z: 14}
         ],
         facingLocation: { x: 605, y: 110, z: 30 },
-        visitPoint: { x: 605, y: 120, z: 30 }
+        visitPoint: { x: 605, y: 120, z: 30 },
+        resetLocation: { x: 572, y: 100, z: 0}
     },
     Mushroom: {
         spawnPoint: [
@@ -27,7 +29,8 @@ export const Arena = {
             {x: 660, y: 105, z: 52}
         ],
         facingLocation: { x: 680, y: 110, z: 30 },
-        visitPoint: { x: 680, y: 120, z: 30 }
+        visitPoint: { x: 680, y: 120, z: 30 },
+        resetLocation: { x: 644, y: 100, z: 0 }
     },
     Swamp: {
         spawnPoint: [
@@ -37,7 +40,8 @@ export const Arena = {
             {x: 510, y: 108, z: 96}
         ],
         facingLocation: { x: 530, y: 110, z: 105 },
-        visitPoint: { x: 530, y: 120, z: 105 }
+        visitPoint: { x: 530, y: 120, z: 105 },
+        resetLocation: { x: 499, y: 100, z: 71 }
     },
     Mansion: {
         spawnPoint: [
@@ -48,7 +52,8 @@ export const Arena = {
             {x: 580, y: 119, z: 127}
         ],
         facingLocation: { x: 605, y: 110, z: 105 },
-        visitPoint: { x: 599, y: 100, z: 80 }
+        visitPoint: { x: 599, y: 100, z: 80 },
+        resetLocation: { x: 571, y: 100, z: 71 }
     },
     IceSpike: {
         spawnPoint: [
@@ -58,7 +63,8 @@ export const Arena = {
             {x: 688, y: 107, z: 82}
         ],
         facingLocation: { x: 680, y: 110, z: 105 },
-        visitPoint: { x: 680, y: 120, z: 105 }
+        visitPoint: { x: 680, y: 120, z: 105 },
+        resetLocation: { x: 643, y: 100, z: 71 }
     },
     Forest: {
         spawnPoint: [
@@ -68,7 +74,8 @@ export const Arena = {
             {x: 513, y: 108, z: 197}
         ],
         facingLocation: { x: 530, y: 110, z: 180 },
-        visitPoint: { x: 530, y: 120, z: 180 }
+        visitPoint: { x: 530, y: 120, z: 180 },
+        resetLocation: { x: 499, y: 100, z: 143 }
     },
     Cave: {
         spawnPoint: [
@@ -78,7 +85,8 @@ export const Arena = {
             {x: 607, y: 110, z: 200}
         ],
         facingLocation: { x: 605, y: 110, z: 180 },
-        visitPoint: { x: 605, y: 120, z: 180 }
+        visitPoint: { x: 605, y: 120, z: 180 },
+        resetLocation: { x: 571, y: 100, z: 143 }
     },
     Basalt1: {
         spawnPoint: [
@@ -88,7 +96,8 @@ export const Arena = {
             {x: 664, y: 108, z: 155}
         ],
         facingLocation: { x: 680, y: 110, z: 180 },
-        visitPoint: { x: 680, y: 120, z: 180 }
+        visitPoint: { x: 680, y: 120, z: 180 },
+        resetLocation: { x: 643, y: 100, z: 143 }
     },
     Basalt2: {
         spawnPoint: [
@@ -99,6 +108,7 @@ export const Arena = {
             {x: 546, y: 117, z: 226}
         ],
         facingLocation: { x: 530, y: 110, z: 250 },
-        visitPoint: { x: 530, y: 120, z: 250 }
+        visitPoint: { x: 530, y: 120, z: 250 },
+        resetLocation: { x: 499, y: 100, z: 215 }
     }
 }

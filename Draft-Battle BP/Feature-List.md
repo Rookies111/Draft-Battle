@@ -2,9 +2,9 @@
 Feature list of Draft Battle minigame
 
 ## Hub(Waiting room)
-* Disable PVP
-* Inventory Clearing
-* Change to Adventure Gamemode
+* Disable PVP ✅
+* Inventory Clearing ✅
+* Change to Adventure Gamemode ✅
 * Setting Menu ✅
 
 ## Preparation Phase
@@ -16,7 +16,7 @@ Feature list of Draft Battle minigame
 
 ## Battle Phase
 * Enable PVP ✅
-* Teleport to back to Waiting room
+* Teleport to back to Waiting room ✅
 
 ## Arena
 * Arena Maps ✅

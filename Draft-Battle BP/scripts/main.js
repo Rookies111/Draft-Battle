@@ -1,4 +1,3 @@
-// import './gui/index.js'
 import './gui/admin_menu.js'
 
 import { world, system } from '@minecraft/server'
@@ -59,5 +58,18 @@ world.afterEvents.buttonPush.subscribe(buttonPushEvent => {
 
         case mode_btn: // Change the game mode
             world.sendMessage("§cThis feature is not available yet")
+    }
+})
+
+world.afterEvents.playerLeave.subscribe(() => {
+    const players = world.getAllPlayers()
+    clearRunQueue(runId_queue)
+    players.forEach((player) => runId_queue.push(system.runInterval(() => displaySetting(player), 20)))
+})
+
+world.afterEvents.playerInteractWithBlock.subscribe((event) => {
+    if (event.block.typeId === "minecraft:anvil" || event.block.typeId === "minecraft:chipped_anvil") {
+        world.getDimension('minecraft:overworld').setBlockType(event.block.location, 'minecraft:anvil')
+        
     }
 })
