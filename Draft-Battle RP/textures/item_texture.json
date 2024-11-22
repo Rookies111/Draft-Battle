@@ -1,0 +1,11 @@
+{
+  "resource_pack_name": "Draft-Battle RP",
+  "texture_data": {
+    "draft:anvil": {
+      "textures": "textures/items/anvil"
+    },
+    "draft:toolbox": {
+      "textures": "textures/items/toolbox"
+    }
+  }
+}
