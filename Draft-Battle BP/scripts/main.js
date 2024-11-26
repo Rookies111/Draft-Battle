@@ -24,7 +24,7 @@ world.afterEvents.worldInitialize.subscribe(() => {
     
     world.scoreboard.getObjective("Budget").setScore("Emerald Block:", 20)
     world.scoreboard.getObjective("Budget").setScore("Emerald:", 0)
-    world.scoreboard.getObjective("Prepare-Time").setScore("Time:", 1)
+    world.scoreboard.getObjective("Prepare-Time").setScore("Time:", 5)
     for (let name of Object.keys(Arena)) {
         world.scoreboard.getObjective("Arena").setScore(name, 1)
     }
