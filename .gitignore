@@ -1,3 +1,4 @@
 node_modules
 Feature-List.md
 commit.sh
+*.code-workspace
